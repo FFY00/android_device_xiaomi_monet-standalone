@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_monet.mk
+    $(LOCAL_DIR)/aosp_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_monet-eng \
-    revengeos_monet-userdebug \
-    revengeos_monet-user
+    aosp_monet-eng \
+    aosp_monet-userdebug \
+    aosp_monet-user
