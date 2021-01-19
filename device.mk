@@ -37,8 +37,7 @@ PRODUCT_COPY_FILES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService \
-    vendor.xiaomi.hardware.fingerprintextension@1.0
+    AntHalService
 
 # Audio
 PRODUCT_PACKAGES += \
