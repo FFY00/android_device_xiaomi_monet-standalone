@@ -100,7 +100,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet \
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet \
     vendor.xiaomi.hardware.fingerprintextension@1.0
 
 # FM

@@ -16,10 +16,11 @@
 xiaomi_monet_fod_hal_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet",
-    init_rc: ["lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet.rc"],
-    vintf_fragments: ["lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet.xml"],
+    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet",
+    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet.rc"],
+    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_monet.xml"],
     srcs: ["service.cpp", "FingerprintInscreen.cpp"],
+    vendor: true,
     shared_libs: [
         "libbase",
         "libhardware",
